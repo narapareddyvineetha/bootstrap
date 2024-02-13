@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task7</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+     <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js."></script>
+   <style>
+    i{
+        color: grey;
+        font-size: 20px;
+        float:right;
+    }
+    img{
+        height: 40px ;
+        width: 40px;
+        border-radius: 40px;
+    }
+    h4{
+        color: white;
+    }
+    #a{
+        color:black;
+    }
+    #b{
+        border: 30px solid rgb(106, 106, 244);
+    }
+         #c{
+    margin-left: 13px;
+    margin-top: 30px;
+       }
+          #d{
+    margin-left: 1px;
+          }
+           #e{
+      margin-left: 1px;
+     
+          }
+           #f,#f1,#f3,#f2,#f4{
+       height: 30px;
+       width: 30px;
+         }
+        #f1{
+            position: relative;
+            right: 20px;
+        }
+        #f2{
+            position: relative;
+            right: 40px;
+        }
+        #f3{
+            position: relative;
+            right: 60px;
+        }
+        #f4{
+            position: relative;
+            right: 80px;
+        }
+        button{
+            height: 30px;
+        }
+        #u{
+            border-bottom: 1px solid lightgray;
+        }
+   </style>
+</head>
+<body>  
+   <div class="container-fluid">
+    <div class="row">
+        <nav class="navbar bg-light">
+            <div class="container-fluid"> 
+                <form class="d-flex" role="search">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  </form>
+                  <i class="fa-regular fa-bell">&nbsp;&nbsp;
+                  <img src="../back/shinchan.jpeg" class="img-fluid">&nbsp;&nbsp;</i>
+        </div></div>
+    
+    <div class="row">
+        <div class="col-md-10 bg-primary"><h4><br>Projects</h4><br></div>
+        <div class="col-md-2 bg-primary"><br><button class="btn btn-primary bg-light" type="submit" id="a">Create New Project</button><br></div>
+   </div>
+    <div class="row bg-primary"style="height:80px;position: relative;">
+        <div class="col-md-3">
+            <div class="card" style="width: 22rem;">
+                <div class="card-body">
+                    <i class="fa-solid fa-briefcase"></i><h5 class="card-title">Projects</h5>
+                  <h3>18</h3>
+                  <p class="card-text">2 completed</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 22rem;">
+                <div class="card-body">
+                    <i class="fa-solid fa-list"></i></i><h5 class="card-title">Active task</h5>
+                  <h3>132</h3>
+                  <p class="card-text">28 completed</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 22rem;">
+                <div class="card-body">
+                    <i class="fa-solid fa-briefcase"></i><h5 class="card-title">Teams</h5>
+                  <h3>12</h3>
+                  <p class="card-text">1 completed</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 22rem;">
+                <div class="card-body">
+                    <i class="fa-solid fa-circle"></i><h5 class="card-title">Productivity</h5>
+                  <h3>76%</h3>
+                  <p class="card-text">5% completed</p>
+                </div>
+              </div>
+        </div>
+        <div class="row" >
+        <div class="col-md-12 bg-light" id="c"><h6>Active projects</h6><br></div>
+        </div>
+        <div class="row" id="d">
+            <div class="col-md-4 bg-light" id="u"><h6>PROJECT NAME</h6></div>
+            <div class="col-md-2 bg-light" id="u"><h6>HOURS</h6></div>
+            <div class="col-md-2 bg-light" id="u"><h6>PRIORITY</h6></div>
+            <div class="col-md-2 bg-light" id="u"><h6>MEMBERS</h6></div>
+            <div class="col-md-2 bg-light" id="u"><h6>PROGRESS</h6></div>
+        </div>
+        <div class="row " id="e">
+            <div class="col-md-4 bg-light" id="u"><img src="../back/doroman.png" class="img-fluid">Dropbox Design System</div>
+            <div class="col-md-2 bg-light" id="u">34 </div>
+            <div class="col-md-2 bg-light" id="u"> </div>
+            <div class="col-md-2 bg-light" id="u">
+                <img src="../back/shinchan.jpeg" id="f" class="img-fluid">
+                <img src="../back/doroman.png" id="f1" class="img-fluid">
+                <img src="../back/tom.jpeg" id="f2" class="img-fluid">
+                <img src="../back/jerry.jpeg" id="f3" class="img-fluid">
+                <img src="../back/motu.jpeg" id="f4" class="img-fluid">
+            </div>
+            <div class="col-md-2 bg-light" id="u">
+                <div class="progress">
+                    15%<div class="progress-bar bg-primary" role="progressbar" aria-label="Success example" style="width:15%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+            <br></div>
+        </div>
+        <div class="row " id="e">
+            <div class="col-md-4 bg-light" id="u"><img src="../back/tom.jpeg" class="img-fluid" id="f">Slack Team Ul Design</div>
+            <div class="col-md-2 bg-light" id="u">47 </div>
+            <div class="col-md-2 bg-light" id="u"> </div>
+            <div class="col-md-2 bg-light" id="u">
+                <img src="../back/shinchan.jpeg" id="f" class="img-fluid">
+                <img src="../back/doroman.png" id="f1" class="img-fluid">
+                <img src="../back/tom.jpeg" id="f2" class="img-fluid">
+                <img src="../back/jerry.jpeg" id="f3" class="img-fluid">
+                <img src="../back/motu.jpeg" id="f4" class="img-fluid">
+            </div>
+            <div class="col-md-2 bg-light" id="u">
+                <div class="progress">
+                    30%<div class="progress-bar bg-primary" role="progressbar" aria-label="Success example" style="width:30%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+            <br></div>
+        </div>
+        <div class="row " id="e">
+            <div class="col-md-4 bg-light" id="u"><img src="../back/jerry.jpeg" class="img-fluid" id="f">GitHub Satellite</div>
+            <div class="col-md-2 bg-light" id="u">120 </div>
+            <div class="col-md-2 bg-light" id="u"> <button type="button" class="btn btn-primary">Live</button></div>
+            <div class="col-md-2 bg-light" id="u">
+                <img src="../back/shinchan.jpeg" id="f" class="img-fluid">
+                <img src="../back/doroman.png" id="f1" class="img-fluid">
+                <img src="../back/tom.jpeg" id="f2" class="img-fluid">
+                <img src="../back/jerry.jpeg" id="f3" class="img-fluid">
+                <img src="../back/motu.jpeg" id="f4" class="img-fluid">
+            </div>
+            <div class="col-md-2 bg-light" id="u">
+                <div class="progress">
+                    45%<div class="progress-bar bg-primary" role="progressbar" aria-label="Success example" style="width:45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+           <br> </div>
+        </div>
+        <div class="row " id="e">
+            <div class="col-md-4 bg-light" id="u"><img src="../back/motu.jpeg" class="img-fluid" id="f">3D Character Modeling</div>
+            <div class="col-md-2 bg-light" id="u">89 </div>
+            <div class="col-md-2 bg-light" id="u"> </div>
+            <div class="col-md-2 bg-light" id="u">
+                <img src="../back/shinchan.jpeg" id="f" class="img-fluid">
+                <img src="../back/doroman.png" id="f1" class="img-fluid">
+                <img src="../back/tom.jpeg" id="f2" class="img-fluid">
+                <img src="../back/jerry.jpeg" id="f3" class="img-fluid">
+                <img src="../back/motu.jpeg" id="f4" class="img-fluid">
+            </div>
+            <div class="col-md-2 bg-light" id="u">
+                <div class="progress">
+                    70%<div class="progress-bar bg-primary" role="progressbar" aria-label="Success example" style="width:70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+           <br> </div>
+        </div>
+        <div class="row " id="e">
+            <div class="col-md-4 bg-light" id="u"><img src="../back/shinchan.jpeg" class="img-fluid" id="f">Webapp Design System</div>
+            <div class="col-md-2 bg-light" id="u">119 </div>
+            <div class="col-md-2 bg-light" id="u"> </div>
+            <div class="col-md-2 bg-light" id="u">
+                <img src="../back/shinchan.jpeg" id="f" class="img-fluid">
+                <img src="../back/doroman.png" id="f1" class="img-fluid">
+                <img src="../back/tom.jpeg" id="f2" class="img-fluid">
+                <img src="../back/jerry.jpeg" id="f3" class="img-fluid">
+                <img src="../back/motu.jpeg" id="f4" class="img-fluid">
+            </div>
+            <div class="col-md-2 bg-light" id="u">
+                <div class="progress">
+                    100%<div class="progress-bar bg-primary" role="progressbar" aria-label="Success example" style="width:100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+           <br> </div>
+        </div>
+        <div class="row " id="e">
+            <div class="col-md-4 bg-light" id="u"><img src="../back/jerry.jpeg" class="img-fluid" id="f">Github Event Design</div>
+            <div class="col-md-2 bg-light" id="u">120</div>
+            <div class="col-md-2 bg-light" id="u"> <button type="button" class="btn btn-primary">Live</button> </div>
+            <div class="col-md-2 bg-light" id="u">
+                <img src="../back/shinchan.jpeg" id="f" class="img-fluid">
+                <img src="../back/doroman.png" id="f1" class="img-fluid">
+                <img src="../back/tom.jpeg" id="f2" class="img-fluid">
+                <img src="../back/jerry.jpeg" id="f3" class="img-fluid">
+                <img src="../back/motu.jpeg" id="f4" class="img-fluid">
+            </div>
+            <div class="col-md-2 bg-light" id="u">
+                <div class="progress">
+                    25%<div class="progress-bar bg-primary" role="progressbar" aria-label="Success example" style="width:25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+           <br> </div>
+        </div>
+   </div> 
+   <div class="row" style="height: 450px;background-color: lightgray;"></div>
+</div>
+</body>
+</html>
